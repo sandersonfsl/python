@@ -1,8 +1,8 @@
-print('OLA , INSIRA OS SEUS DADOS:')
+print('HELLO! , ENTER YOUR INFORMATION :')
 
-cpf = input('CPF : ')
-rg = input('RG : ')
-cidade = input('cidade: ')
+ssn = input('SSN : ')
+id = input('ID : ')
+city = input('City: ')
 
 
 
