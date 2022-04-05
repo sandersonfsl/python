@@ -1,2 +1,2 @@
-nome = input('Qual é o seu nome? ')
-print('Olá ' + nome + ' ! Prazer em te conhecer!')
+name = input('Whats your name ? ')
+print('Hello ' + name + ' , Nice to meet you !')
