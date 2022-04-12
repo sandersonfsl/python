@@ -1,0 +1,12 @@
+v = input('Type anything : ')
+print('The primitive type of v is  :',type(v))
+
+print('The variable is numeric : ',v.isnumeric())
+print('The variable is alpha: ',v.isalpha())
+print('The variable is ascii :',v.isascii())
+print('The variable is alphanumeric: ',v.isalnum())
+print('The variable is uppercase: ',v.isupper())
+print('The variable is lowercase: ',v.islower())
+print('The variable is whitespaces : ',v.isspace())
+print('The variable is decimal : ',v.isdecimal())
+print('The variable is title: ' ,v.istitle())
