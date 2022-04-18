@@ -1,7 +1,7 @@
 ## quadratic equation solver
 ## when discriminant = 0 there is no real root
 ## when discrmimant  > 0 there are two real roots
-## whe discriminant < 0 there are two complex root 
+## whe discriminant < 0 there are two complex roots 
 print('***Quadratic Equation solver*** ')
 a = float(input('a coefficient: '))
 b = float(input('b coefficient :'))
