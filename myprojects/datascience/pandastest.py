@@ -6,3 +6,4 @@ expenditure = {'when': ['01/01/2022', '01/05/2022', '01/20/2022'],
                'payment': [19,19,19],
                }
 expenditure_df = pd.DataFrame(expenditure)
+print(expenditure_df)
