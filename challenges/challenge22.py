@@ -1,0 +1,7 @@
+n = input('whats your full name ? ')
+print(n.upper())
+print(n.lower())
+a = n.split()
+b = ''.join(a)
+print('this name lenght is : ', len(b))
+print('the first name has',len(a[0]),' characters ')
