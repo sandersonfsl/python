@@ -5,9 +5,6 @@ print('PC choice :', b)
 
 c = input('type r for Rock , p for Paper or s for Scissors ').lower()
 
-
-
-
 if b == 'r' and c == 'p' :
     print('You WIN ! ')
 elif b == 'r' and c == 's' :
@@ -20,6 +17,5 @@ elif b == 's' and c == 'r' :
     print('You WIN ! ')
 elif b == 's' and c == 'p' :
     print('PC WIN ! ')
-
 else :
     print(' DRAW')
