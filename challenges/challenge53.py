@@ -9,9 +9,9 @@ a = r[0:size]
 b = r[::-1]
 
 if a == b:
-print('Palindrome')
+    print('Palindrome')
 else:
-print('Its not palindrome')
+    print('Its not palindrome')
 
 ''' second method :
 
