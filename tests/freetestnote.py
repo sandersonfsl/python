@@ -36,6 +36,9 @@ for c in range (1,6):
 print('G ', g)
 print('L', l)
 '''
+
+'''Analise de dados nome idade sexo
+
 somaidade = 0
 mediaidade = 0
 maioridadehomem = 0
@@ -59,5 +62,5 @@ for p in range (1, 5) :
 mediaidade = somaidade / 4
 print('A media de idade do grupo eh de {} anos '.format(mediaidade))
 print('O homem mais velho tem {} anos e se chama {}'.format(maioridadehomem, nomevelho))
-print('Ao todo sao {} mulheres com menos de 20 anos'.format(totmulher20))
+print('Ao todo sao {} mulheres com menos de 20 anos'.format(totmulher20)) '''
 
