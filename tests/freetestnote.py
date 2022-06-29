@@ -64,3 +64,4 @@ print('A media de idade do grupo eh de {} anos '.format(mediaidade))
 print('O homem mais velho tem {} anos e se chama {}'.format(maioridadehomem, nomevelho))
 print('Ao todo sao {} mulheres com menos de 20 anos'.format(totmulher20)) '''
 
+
