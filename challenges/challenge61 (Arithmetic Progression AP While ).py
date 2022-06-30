@@ -2,13 +2,12 @@ print('Ill read the first term and the common difference of an arithmetic progre
 
 a1 = int(input('first term : '))
 cd = int(input('common difference : '))
-c = 1 
-t = 0
+
+t = a1
+c = 1
+
 while  c <= 10 :
-    t = (t - 1) + cd
-    c = c + 1
     print(t)
-
-
-    
+    t += cd
+    c += 1
 
