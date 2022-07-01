@@ -64,4 +64,21 @@ print('A media de idade do grupo eh de {} anos '.format(mediaidade))
 print('O homem mais velho tem {} anos e se chama {}'.format(maioridadehomem, nomevelho))
 print('Ao todo sao {} mulheres com menos de 20 anos'.format(totmulher20)) '''
 
+''' SUPER AP
+a1 = int(input('1 term '))
+cd = int(input('common difference '))
+t = a1
+c = 1
+more = 10
+m = 0
 
+while more != 0 :
+    m += more
+    while c <= m :
+        print(t)
+        t += cd
+        c += 1
+    more = int(input('how many more terms ? '))
+
+print(' DONE ! ')
+'''    
