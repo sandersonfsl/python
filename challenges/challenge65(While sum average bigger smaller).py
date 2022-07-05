@@ -17,7 +17,7 @@ while f in 'Yy' :
     
 
     
-print(f' NUMBERS -> {c}  , SUM -> {sum} , AVERAGE -> {float(sum/c)}  , BIGGER -> {bigger},  SMALLER -> {smaller}  ', end='')
+print(f' NUMBERS -> {c}  , SUM -> {sum} , AVERAGE -> {float(sum/c)}  , BIGGER -> {bigger},  SMALLER -> {smaller}  ')
     
     
 
