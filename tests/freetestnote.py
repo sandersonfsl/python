@@ -82,3 +82,36 @@ while more != 0 :
 
 print(' DONE ! ')
 '''    
+
+
+''' MEDIA, MAIOR , MENOR WHILE com S e N
+r = 'S'
+soma = quant = maior = menor = 0
+
+while r in "Ss" :
+    
+    n = int(input('type a number : '))
+    r = str(input('want to continue ? [s/n] ')).upper().strip()
+    soma += n
+    quant += 1
+    if quant == 1 :
+        maior = menor = n
+    else :
+        if n > maior :
+            maior = n
+
+        if n < menor :
+            menor = n
+    
+media = soma / quant
+
+print(f'qnt --> {quant} media --> {media}  maior --> {maior} menor --> {menor} ')'''
+
+c = 0
+
+while True :
+    print(c)
+    c += 1
+    if c > 1000 :
+        break
+print('end')
