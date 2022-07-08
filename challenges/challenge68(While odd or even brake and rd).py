@@ -2,8 +2,11 @@ import random as rd
 
 count = 0
 while True :
+    
     n = int(input('Choose a number (0 to 10) : '))
-    c = str(input('Type o for Odd,  e for Even : ')).strip().lower()[0]
+    c = ' '
+    while c not in 'eo' :
+        c = str(input('Type o for Odd,  e for Even : ')).strip().lower()[0]
 
     n2 = rd.randint(0,10)
     print(f'pc number = {n2}')

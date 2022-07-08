@@ -20,7 +20,7 @@ while True :
     while o not in 'YyNn' :
         o = str(input('Invalid data type [y/n] '))
     
-    if a > 18 :
+    if a >= 18 :
         c1 += 1
     if g in 'm' :
         c2 += 1
