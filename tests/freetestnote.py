@@ -107,12 +107,32 @@ media = soma / quant
 
 print(f'qnt --> {quant} media --> {media}  maior --> {maior} menor --> {menor} ')'''
 
-c = 0
-
+print('CHALLENGE 70')
+total = tot2 = cheaper = cont = 0
+cheapername = ' '
 while True :
-    print(c)
-    c += 1
-    if c > 1000 :
+    n = str(input('Name :'))
+    p = float(input('Price US$ :'))
+    total += p
+    cont += 1 
+
+    if cont == 1 :
+        cheaper = p
+        cheapername = n
+    else :
+        if p < cheaper :
+            cheaper = p
+            cheapername = n
+
+    if p >1000 :
+        tot2 += 1
+    o = ' '
+    while o not in 'YN' :
+        o = str(input(' Continue ? ')).strip().upper()[0]
+
+    if o == 'N' :
         break
-print('end')
-print('updt')
+
+print( ' SUM ', total)
+print( ' 1000 + value = ', tot2)
+print(' Cheaper value and product name ' ,cheaper, cheapername, )
