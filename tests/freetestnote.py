@@ -84,7 +84,7 @@ print(' DONE ! ')
 '''    
 
 
-''' MEDIA, MAIOR , MENOR WHILE com S e N
+''' MEDIA, MAIOR , MENOR WHILE com S e N challenge64(While sum average bigger smaller)
 r = 'S'
 soma = quant = maior = menor = 0
 
@@ -115,3 +115,4 @@ while True :
     if c > 1000 :
         break
 print('end')
+print('updt')

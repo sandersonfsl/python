@@ -9,12 +9,21 @@ while True :
     print(f'pc number = {n2}')
 
     if c =='o' and (n + n2) % 2 == 0 :
-        print(' you lose ')
+        print('you lose ! ')
         break
 
-    else :
+    elif c == 'e' and (n + n2) % 2 == 0 :
+        print('you win !')
         count += 1
-        print(' you win ')
+
+    elif c == 'o' and (n+2)%2 !=0 :
+        print('you win !')
+        count += 1
+
+    elif c == 'e' and (n + n2) % 2 != 0 :
+        print('you lose !')
+        break
+
         
 
 print(f'END with {count} wins ')
