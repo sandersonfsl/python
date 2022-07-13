@@ -107,7 +107,7 @@ media = soma / quant
 
 print(f'qnt --> {quant} media --> {media}  maior --> {maior} menor --> {menor} ')'''
 
-print('CHALLENGE 70')
+'''print('CHALLENGE 70')
 total = tot2 = cheaper = cont = 0
 cheapername = ' '
 while True :
@@ -136,3 +136,31 @@ while True :
 print( ' SUM ', total)
 print( ' 1000 + value = ', tot2)
 print(' Cheaper value and product name ' ,cheaper, cheapername, )
+
+'''
+print('TUPLES in PYTHON')
+lanche = ('hamburguer','pizza','suco','pudim')
+
+
+print(lanche)
+print(lanche[0])
+print(lanche[-2])
+print(lanche[1:3])
+print(lanche[2:])
+print(len(lanche))
+
+for c in range (0, len(lanche)) :
+    print(lanche[c])
+
+print(sorted(lanche))
+
+a = (2,5,4)
+b = (5,8,1,2)
+c = b + a
+
+print(c.index(5, 1))
+print(c.count(2))
+print(c.count(5))
+print(c.count(9))
+print(c.index(8))
+
