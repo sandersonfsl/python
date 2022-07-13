@@ -138,7 +138,8 @@ print( ' 1000 + value = ', tot2)
 print(' Cheaper value and product name ' ,cheaper, cheapername, )
 
 '''
-print('TUPLES in PYTHON')
+
+'''print('TUPLES in PYTHON')
 lanche = ('hamburguer','pizza','suco','pudim')
 
 
@@ -207,3 +208,14 @@ values2.sort(reverse=True)
 print(values2)
 
 print(len(values2))
+
+'''
+a = [2,3,4,7]
+
+b = a[:]
+
+b[2] = 8
+
+print(a)
+
+print(b)
