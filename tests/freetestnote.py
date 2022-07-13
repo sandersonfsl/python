@@ -164,3 +164,46 @@ print(c.count(5))
 print(c.count(9))
 print(c.index(8))
 
+
+print('LIST IN PYTHON')
+
+values = [1,2,3,4,5]
+
+values.append(5)
+
+print(values)
+
+values.insert(0,5)
+
+print(values)
+
+del values[3]
+
+print(values)
+
+values.pop(3)
+
+print(values)
+
+values.remove(1)
+
+print(values)
+
+if 2 in values :
+    values.remove(2)
+
+print(values)
+
+values2 = list(range(4,11))
+
+print(values2)
+
+values2.sort()
+
+print(values2)
+
+values2.sort(reverse=True)
+
+print(values2)
+
+print(len(values2))
