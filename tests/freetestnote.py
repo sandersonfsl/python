@@ -272,6 +272,7 @@ print(surfers)
 
 '''
 
+'''
 print('DICTIONARY')
 
 pessoas = {'nome':'Gustavo', 'sexo':'M', 'idade':22}
@@ -299,4 +300,52 @@ for c in range (0,3) :
     estado['sigla'] = str(input('Sigla do estado : '))
     brasil.append(estado.copy())
 print(brasil)
+'''
 
+
+print('FUNCOES')
+
+def mostralinha() :
+    print('---------------------')
+
+
+mostralinha()
+
+
+def titulo(txt) :
+	print('-'*30)
+	print(txt)
+	print('-'*30)
+
+titulo('  CURSO EM VIDEO PYTHON ')
+titulo(' PYTHON ' )
+titulo('OI')
+
+def soma(a,b) :
+	print(f'A = {a} e B = {b}')
+	s = a + b
+	print(f'A soma A + B = {s}')
+
+soma(b = 4, a = 5)
+
+def contador(*num) :
+	print(num)
+
+contador(2,1,7)
+contador(8,0)
+contador(4,4,7,6,2)
+
+v = [2,4,6,8,10,12]
+
+
+
+def dobra(lst) :
+    pos  = 0
+    while pos < len(lst):
+        lst[pos] *= 2
+        pos += 1
+
+
+valores = [2,4,6,8,9]
+dobra(valores)
+print(valores)
