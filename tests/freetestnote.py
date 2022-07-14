@@ -1,3 +1,6 @@
+## AUTO GIT git add . && git commit -m "" && git push
+
+
 '''COLOR EXAMPLE 
 
 n = int(input('n u m b e r : '))
@@ -210,6 +213,7 @@ print(values2)
 print(len(values2))
 
 '''
+
 a = [2,3,4,7]
 
 b = a[:]
@@ -219,3 +223,4 @@ b[2] = 8
 print(a)
 
 print(b)
+
