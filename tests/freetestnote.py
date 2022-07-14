@@ -213,7 +213,7 @@ print(values2)
 print(len(values2))
 
 '''
-
+'''
 a = [2,3,4,7]
 
 b = a[:]
@@ -223,4 +223,80 @@ b[2] = 8
 print(a)
 
 print(b)
+
+
+print('Listas Compostas')
+
+dados = list()
+
+dados.append('Pedro')
+
+dados.append(25)
+
+pessoas = list()
+
+pessoas.append(dados[:])
+
+print(pessoas)
+
+print(pessoas[0][1])
+'''
+'''
+test = list()
+test.append('gustavo')
+test.append('40')
+galera = list()
+galera.append(test[:])
+test[0] = 'maria'
+test[1] = 22
+galera.append(test[:])
+print(galera)
+
+
+surfers = [['toledo',29],['ferreira',27],['pupo',31],['slater',51]]
+
+for o in surfers :
+    print(o[0] , o[1])
+
+
+surfers = list()
+data = list()
+
+for c in range (0,3) :
+    data.append(str(input('surfer name : ')))
+    data.append(int(input('surfer age : ')))
+    surfers.append(data[:])
+    data.clear()
+
+print(surfers)
+
+'''
+
+print('DICTIONARY')
+
+pessoas = {'nome':'Gustavo', 'sexo':'M', 'idade':22}
+print(f'o {pessoas["nome"]} tem {pessoas["idade"]} anos ')
+print(pessoas.keys())
+print(pessoas.values())
+print(pessoas.items())
+
+for k in pessoas.values() :
+    print(k)
+
+brasil = []
+estado1 = {'uf':'Rio de Janeiro', 'sigla' : 'RJ'}
+estado2 = {'uf': 'Sao Paulo', 'sigla': 'SP'}
+brasil.append(estado1)
+brasil.append(estado2)
+
+print(brasil)
+
+
+estado = dict()
+brasil = list()
+for c in range (0,3) :
+    estado['uf'] = str(input('unidade federativa'))
+    estado['sigla'] = str(input('Sigla do estado : '))
+    brasil.append(estado.copy())
+print(brasil)
 
