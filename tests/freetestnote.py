@@ -382,14 +382,48 @@ while True :
 
 soma(l)
 
-'''
+
+## DOBRAR VALORES
 def dobra(lst) :
     pos = 0
     while pos < len(lst) :
         lst[pos] = lst[pos]*2
         pos +=1
 
-
 valores = [6,3,5,4,2,1]
 dobra(valores)
 print(valores)
+
+
+
+
+
+
+def contador(i,f,p):
+    i = inicio da contagem
+    f = fim da contagem
+    p = passo da contagem
+    return : sem retorno """
+    c = i
+    while c <= f:
+	    print(f'{c}', end='')
+	    c+=p
+	    print('FIM!')
+
+contador(0,100,10)
+
+
+
+'''
+## DOCSTRING
+def somar(a,b,c=0) :
+	""" SOMAS DE TRES VALORES 
+	a = primeiro valor
+	b = segundo valor
+	c = terceiro valor
+	"""
+	s = a + b + c
+	print(f'SOMA = {s} ')
+
+somar(3,2)
+
