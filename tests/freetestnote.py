@@ -302,7 +302,7 @@ for c in range (0,3) :
 print(brasil)
 '''
 
-
+'''
 print('FUNCOES')
 
 def mostralinha() :
@@ -337,15 +337,59 @@ contador(4,4,7,6,2)
 
 v = [2,4,6,8,10,12]
 
+'''
+'''
+v = [2,4,6,8,10,12]
+
+def double(v) :
+    var = 0
+    for c in range (1, var) :
+        v[var] = v[var] * 2
+        var += 1
+
+double(v)
+print(v)
 
 
-def dobra(lst) :
-    pos  = 0
-    while pos < len(lst):
-        lst[pos] *= 2
-        pos += 1
+##EMPACOTAMENTO
+def soma(*valores) :
+    s = 0
+    for num in valores :
+        s += num
+    print(f'somando os valores {valores} temos {s}')
+
+soma(5,2)
+soma(2,9,4)
+'''
 
 
-valores = [2,4,6,8,9]
-dobra(valores)
-print(valores)
+'''
+
+### SOMA DE INFINITOS NUMEROS
+def soma(x) :
+    s = 0
+    for c in x :
+        s += c
+    print(s)
+
+l = []
+while True :
+    a = int(input(' type  a number [999] to end ' ))
+    if a == 999 :
+        break
+    l.append(a)
+
+
+soma(l)
+
+'''
+
+def soma(*valores) :
+    s = 0
+    for num in valores :
+        s += num
+    print(f'somando os valores {valores} temos {s}')
+
+soma(5,2)
+
+soma(5,6,7,8,9,1,5)
