@@ -383,13 +383,13 @@ while True :
 soma(l)
 
 '''
+def dobra(lst) :
+    pos = 0
+    while pos < len(lst) :
+        lst[pos] = lst[pos]*2
+        pos +=1
 
-def soma(*valores) :
-    s = 0
-    for num in valores :
-        s += num
-    print(f'somando os valores {valores} temos {s}')
 
-soma(5,2)
-
-soma(5,6,7,8,9,1,5)
+valores = [6,3,5,4,2,1]
+dobra(valores)
+print(valores)
