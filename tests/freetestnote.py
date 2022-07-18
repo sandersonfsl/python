@@ -415,6 +415,7 @@ contador(0,100,10)
 
 
 '''
+'''
 ## DOCSTRING
 def somar(a,b,c=0) :
 	""" SOMAS DE TRES VALORES 
@@ -426,4 +427,96 @@ def somar(a,b,c=0) :
 	print(f'SOMA = {s} ')
 
 somar(3,2)
+
+'''
+
+##SCOPE OF VARIABLES
+
+'''
+def test() :
+    x = 8
+    print(f'test function : n = {n}')
+    print(f'test function : x = {x}')
+
+# main program
+n = 2 
+print(f'main program : n = {n}')
+print(f'main program : x = {x}')
+
+test()
+'''
+'''
+def test2(b) :
+    global a
+    a = 8
+    b += 4
+    c = 2
+    print(f'A inside is {a}')
+    print(f'B inside is {b}')
+    print(f'C inside is {c}')
+
+a = 5
+test2(a)
+print(f'A fora vale {a}')
+
+'''
+
+'''
+#RETURN
+def sum(a=0, b=0, c=0) :
+    s = a + b + c
+    return s
+
+print(sum(2,4,6))
+print(sum(3,2,5))
+print(sum(2,2))
+print(sum(6))
+
+def my_function(x) :
+	return 5 * x
+
+print(my_function(3))
+print(my_function(5))
+print(my_function(9))
+
+
+def factorial(num = 1) :
+    f = 1
+    for c in range (num, 0, -1) :
+        f *= c
+    return f
+
+
+n = int(input('type a number : '))
+print(f'{n} factorial = {factorial(n)}')
+
+
+def evenorodd(x) :
+    if x % 2 == 0:
+        return True
+    else :
+        return False
+
+n = int(input('type a number '))
+if evenorodd(n) == True :
+    print('EVEN')
+else :
+    print('ODD ')
+
+'''
+
+
+
+'''
+def factorial(n) :
+    f = 1
+    for c in range (1,n+1) :
+        f *= c
+    return f
+
+num = int(input('type an int number '))
+fact = factorial(num)
+print(f'{num} FACTORIAL = {fact}')
+
+'''
 
