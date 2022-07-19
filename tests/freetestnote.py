@@ -520,3 +520,22 @@ print(f'{num} FACTORIAL = {fact}')
 
 '''
 
+
+## ERROR TREATMENT
+
+try :
+    a = int(input(' value 1 '))
+    b = int(input(' value 2 '))
+    r = a / b
+except (ValueError, TypeError) :
+    print('data type error ')
+except ZeroDivisionError :
+    print('cannot divide by 0')
+except KeyboardInterrupt :
+    print('user did not type')
+except Exception as error :
+    print(f'ERROR : {error.__cause__}')
+else :
+    print(r)
+finally : 
+    print('see u later')
