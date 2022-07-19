@@ -1,0 +1,15 @@
+def line() :
+    print('-'*42)
+    
+a = print('World Surf League Ranking : Jul, 19 , 2022')
+s = ('Filipe Toledo', 'Jack Robinson', 'Ethan Ewing', 'Italo Ferreira', 'Griffin Colapinto' , 'Kanoa Igarashi', 'Callum Robson', 'John John Florence', 'Miguel Pupo', 'Connor OLeary', 'Samuel Pupo', 'Caio Ibelli', 'Jordy Smith', 'Matthew McGillivray', 'Barron Mamiya', 'Nat Young', 'Kelly Slater', 'Kolohe Andino', 'Jake Marshall', 'Seth Moniz')
+line()
+print(f'The first five are :{s[:5]} ')
+line()
+print(f'The last four are : {s[-4:]}')
+line()
+print(f'Alphabetical order is : {sorted(s)}')
+line()
+print('Filipe Toledo place :', (s.index('Filipe Toledo')+1))
+print('Italo Ferreira place :', (s.index('Italo Ferreira')+1))
+print('Jack Robinson place: ',(s.index('Jack Robinson')+1))
