@@ -1,8 +1,9 @@
 import random as rd
-t = (rd.randint(1,18000),rd.randint(1,18000),rd.randint(1,18000),rd.randint(1,18000),rd.randint(1,18000))
+t = (rd.randint(1,10),rd.randint(1,10),rd.randint(1,10),rd.randint(1,10),rd.randint(1,10))
 
 print(f'your list is {t} ')
-print(len(t))
+print(f'list lenght : ', len(t))
+
 
 
 for c, v in enumerate(t) :
@@ -13,8 +14,17 @@ for c, v in enumerate(t) :
             bigger = v
         if v < smaller :
             smaller = v
+    
+print(f'bigger number = {bigger} smaller number = {smaller}')
 
-print(f' Bigger Number = {bigger} , Smaller Number = {smaller}')
+
+## using max and min
+## print(max(t))
+## print(min(t))
+
+
+
+
 
 
 
