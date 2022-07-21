@@ -1,5 +1,5 @@
 
-l = ('LEARN', 'PRROGRAM', 'LANGUAGE', 'PYTHON', 'MACHINE', 'STUDY', 'LIBRARY',
+l = ('LEARN', 'PROGRAM', 'LANGUAGE', 'PYTHON', 'MACHINE', 'STUDY', 'LIBRARY',
 'TUPLE', 'DICTIONARY', 'LIST')
 
 for c in range (0, len(l)) :
@@ -8,7 +8,11 @@ for c in range (0, len(l)) :
         print(l[c].count('A')*'A', l[c].count('E')*'E', l[c].count('I')*'I', l[c].count('O')*'O', l[c].count('U')*'U')
 
 
-        
+for w in l :
+    print(f'\nword {w} have : ', end=' ')
+    for letter in w :
+        if letter.lower() in 'aeiou' :
+            print(f'{letter}', end=' ')
 
 
 
