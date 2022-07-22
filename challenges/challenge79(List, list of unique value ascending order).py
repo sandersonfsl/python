@@ -4,6 +4,7 @@ while True :
     if n in l :
         print('Duplicate value , i wont add !')
     else :
+        print('successfully added !')
         l.append(n)
     o = str(input(' want to continue ? [Y/N] '))
     if o in 'Nn' :

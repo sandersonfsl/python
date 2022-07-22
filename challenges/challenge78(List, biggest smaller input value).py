@@ -11,4 +11,5 @@ for c, v in enumerate(l) :
         if v < smallest :
             smallest = v
 
-print(f'biggest value : {biggest} , smallest value : {smallest}  ')
+print(f'biggest value : {biggest} in position {l.index(biggest) +1} , smallest value : {smallest} in position {l.index(smallest) +1}  ')
+
