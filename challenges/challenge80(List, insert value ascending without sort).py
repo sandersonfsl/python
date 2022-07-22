@@ -2,24 +2,16 @@ l = []
 
 for c in range (0,5) :
     n = int(input('type a number '))
-    if c == 0 :
+    if c == 0 or n > l[-1]:
         l.append(n)
-        print(l,' added at the end of the list ')
-        
-    if c == 1 :
-        if n < l[0] :
-            l.insert(0,n)
-        else :
-            l.append(n)
-
-
-
-
-
-'''
-'added at the end of the list' [4]
-'added at position 0' [0]
-'added at position 1' [1]
-'added at position 2' [2]
-'added at position 3' [3]'''
+        print('added at the end ... ')
+    else :
+        position = 0
+        while position < len(l) :
+            if n <= l[position] :
+                l.insert(position, n)
+                print(f'added at {position} position ...')
+                break
+            position += 1
+print(l)
 

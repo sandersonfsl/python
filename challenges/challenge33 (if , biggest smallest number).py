@@ -21,11 +21,3 @@ if c > a and c > b and b > a :
 if c > a and c > b and b < a :
     print('biggest ', c)
     print('smallest', b)
-
-
-
-
-
-
-
-
