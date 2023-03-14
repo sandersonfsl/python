@@ -11,15 +11,9 @@
     * A way to store data that can be easily exchanged between programs
 
 
-- Example Structure: 
+-  Example:
 
-    * Write to the preset file any amount of headers separated by commas (example :business ID, national ID, Job Title, Birth Date, Hire Date, Gender) then write rows below
-
-    * Example:
-
-business ID, national ID, Job Title,Birth Date, Hire Date, Gender,
-1,767456789,Engineering Manager,1970-01-29,2010-01-31,M
-2,989954659,Chief Executive Officer,1978-11-12,2006-01-01,F
+![CSV example](csv_example.png)
 
 - Python CSV Module :
 
