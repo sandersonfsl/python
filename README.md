@@ -1,5 +1,2 @@
 # python
-
-
-
 :keyboard: Python Projects
