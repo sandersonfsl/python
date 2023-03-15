@@ -1,13 +1,13 @@
-#### Python Projects
+### Python Projects
 
 
-### RANDOM PASSWORD GENERATOR 
+## RANDOM PASSWORD GENERATOR 
 
 (Random_Password_Generator Folder)
 
 
 
-## About This Project :
+# About This Project :
 
 "This code will randomly generate a secure password based on how many characters the user want"
 
@@ -18,7 +18,7 @@
     * A password shouldn't be shared, should be unique for each account or device
 
 
-## Python Modules
+# Python Modules
 
 - Python random Module :
 
@@ -82,7 +82,7 @@
     * https://docs.python.org/3/library/string.html
     
 
-## Why ?
+# Why ?
 
 - This program is an easy to access code to generate strong password for any use
 
@@ -99,12 +99,12 @@
 
 
 
-### WRITE TO CSV 
+## WRITE TO CSV 
 
 (Write_to_CSV_File Folder)
 
 
-## About This Project :
+# About This Project :
 
 "The idea of this code is to write rows to a preset CSV file"
 
@@ -128,7 +128,7 @@ WRITE TO CSV
 
     
 
-## Why ?
+# Why ?
 
 - A simple interative way to write rows to a preseted with headers CSV file.
 
