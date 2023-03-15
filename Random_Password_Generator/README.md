@@ -29,11 +29,11 @@
     random.randrange(1, 50)
 
     Output :
-    random.randrange(1, 50)
+    
     2
 
     Output :
-    random.randrange(0, 101, 10)
+
     80
 
 
@@ -64,7 +64,7 @@
     print(string.ascii_digits)
 
     Output :
-    
+
     0123456789
 
 
