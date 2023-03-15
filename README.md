@@ -1,4 +1,4 @@
-#### :keyboard: Python Projects
+#### Python Projects
 
 
 ### RANDOM PASSWORD GENERATOR 
