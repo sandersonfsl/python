@@ -29,7 +29,7 @@
     random.randrange(1, 50)
 
     Output :
-    
+
     2
 
     Output :
@@ -75,7 +75,7 @@
 
 ## Why ?
 
-- This programa is an easy to access code to generate strong password for any use
+- This program is an easy to access code to generate strong password for any use
 
 
 
