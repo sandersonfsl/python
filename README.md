@@ -119,7 +119,7 @@
 
 -  Example:
 
-![CSV example](csv_example.png)
+![CSV example](./python/Write_to_CSV_File/csv_example.png)
 
 - Python CSV Module :
 WRITE TO CSV 
