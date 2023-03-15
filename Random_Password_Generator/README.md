@@ -28,10 +28,12 @@
     import random
     random.randrange(1, 50)
 
-    >>> random.randrange(1, 50)
+    Output :
+    random.randrange(1, 50)
     2
 
-    >>> random.randrange(0, 101, 10)
+    Output :
+    random.randrange(0, 101, 10)
     80
 
 
@@ -48,7 +50,9 @@
     import string
     print(string.ascii_letters)
 
-    >>> print(string.ascii_letters)
+
+    Output :
+
     abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
     
 
@@ -59,7 +63,8 @@
     import string
     print(string.ascii_digits)
 
-    >>> print(string.ascii_digits)
+    Output :
+    
     0123456789
 
 
@@ -78,6 +83,6 @@
 
     1. Edit file random_password_generator.py by putting the argument of the class Password as your password lenght (default configured to 16)
 
-    2. Run the random_password_generator.py using Python
+    2. Run the file random_password_generator.py using Python
 
   
