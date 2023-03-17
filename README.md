@@ -178,7 +178,7 @@ WRITE TO CSV
 
 # Why ?
 
-- A simple way to show yout montlhy balance using csv files.
+- A simple way to show your montlhy balance using csv files.
 
 
 
