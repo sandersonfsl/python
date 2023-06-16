@@ -1,7 +1,5 @@
 ## MONTHLY EXPENSES
 
-(Monthly_Expenses Folder)
-
 
 # About This Project :
 

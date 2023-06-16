@@ -1,7 +1,5 @@
 ## WRITE TO CSV 
 
-(Write_to_CSV_File Folder)
-
 
 # About This Project :
 
@@ -18,7 +16,7 @@ The idea of this code is to write rows to a preset CSV file
 
 -  Example:
 
-![CSV example](Write_to_CSV_File/csv_example.png)
+![CSV example](csv_example.png)
 
 - Python CSV Module :
 WRITE TO CSV 

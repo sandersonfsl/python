@@ -1,8 +1,5 @@
 ## RANDOM PASSWORD GENERATOR 
 
-(Random_Password_Generator Folder)
-
-
 
 # About This Project :
 
