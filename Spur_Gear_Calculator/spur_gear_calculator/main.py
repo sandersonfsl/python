@@ -1,0 +1,16 @@
+from calculator import SpurGear
+
+gear_1 = SpurGear(int(input("Number of teeh: \n ")), float(input("Outside Diameter: \n")))
+gear_1.module()
+gear_1.pitch_circle_diameter()
+gear_1.circular_pitch()
+gear_1.diametral_pitch()
+gear_1.addendum()
+gear_1.addendum_circle_diameter()
+gear_1.clearance()
+gear_1.deddendum()
+gear_1.deddendum_circle_diameter()
+gear_1.pressure_angle()
+gear_1.circular_pitch_angle()
+gear_1.gear_thickness()
+gear_1.backlash()
