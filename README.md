@@ -5,7 +5,7 @@
 
     This code will randomly generate a secure password based on how many characters the user want
 
-    Link to Repository : Random_Password_Generator
+    Link to Repository : https://github.com/sandersonfsl/python/blob/18d938092f0dca2c4f0161039a8beeba31bdd43b/Random_Password_Generator
 
 
 - Write to csv
