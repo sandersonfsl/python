@@ -75,3 +75,62 @@ The axial length of a gear tooth is called the face width
 * Backlash
 
 The amount by which a tooth space exceeds the thickness of a gear tooth engaged in mesh.
+
+
+
+# Basic Instruction : 
+
+    1. Run main.py with python then type number of theeth and outside diameter (same as addendum circle diameter) .
+
+
+    Example :
+
+    Number of teeth: 
+    25
+    Outside Diameter (same as Addendum Circle): 
+    54
+
+    Will generate :
+
+    - Module : 
+    2.0 
+ 
+    - Pitch Circle Diameter: 
+    50.0 
+ 
+    - Circular Pitch: 
+    6.283185307179587 
+ 
+    - Diametral Pitch : 
+    0.5 
+ 
+    - Addendum: 
+    2.0
+    - Addendum Circle Diameter: 
+    54.0 
+ 
+    - Clearance : 
+    0.31415926535897937 
+ 
+    - Deddendum : 
+    2.3141592653589793 
+ 
+    - Deddendum Circle Diameter: 
+    45.37168146928204 
+ 
+    - Pressure Angle (most common): 
+    20 
+ 
+    - Circular Pitch Angle : 
+    3.6000000000000005 
+ 
+    - Face Width : 
+    10.0 
+ 
+    - Backlash : 
+ 
+    Average Backlash :  0.08
+    Minimum Backlash :  0.06
+    Maximum Backlash :  0.1
+
+    

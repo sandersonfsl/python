@@ -20,5 +20,6 @@
 
 - ## Spur Gear Calculator
 
+    This program will generate some necessary parameters for the creation of a cylindrical spur gear using 3d CAD modeling.
 
     Link to Repository : https://github.com/sandersonfsl/python/tree/main/Spur_Gear_Calculator
