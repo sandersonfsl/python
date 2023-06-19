@@ -12,4 +12,4 @@ This program will generate some necessary parameters for the creation of a cylin
 
 -  A Spur Gear :
 
-<img src="Spur_Gear_Calculator/spur_gear.png" width=30% height=30%>
+<img src="Spur_Gear_Calculator/images/spur_gear.png" width=30% height=30%>
