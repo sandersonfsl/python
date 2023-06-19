@@ -55,9 +55,9 @@ class SpurGear():
         self.circular_pitch_angle = self.circular_pitch * 360 / (self.pitch_circle_diameter * math.pi * 4)
         print(" - Circular Pitch Angle : \n ", self.circular_pitch_angle, "\n ")
 
-    def gear_thickness(self):
-        self.gear_thickness = self.module * 5
-        print(" - Gear Thickness : \n  ", self.gear_thickness, "\n ")
+    def face_width(self):
+        self.face_width = self.module * 5
+        print(" - Face Width : \n  ", self.face_width, "\n ")
     
     def backlash(self):
         self.average_backlash = 0.04 / self.diametral_pitch
